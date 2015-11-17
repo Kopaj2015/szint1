@@ -34,3 +34,5 @@ if (Floors.find().count() == 0) {
 	});
 	
 }
+
+Meteor.call('insertFloor', 'firstflooooooor', 100, 'dsafd');
