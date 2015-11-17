@@ -1,0 +1,3 @@
+/**
+ * Accounts password package configuration.
+ */
