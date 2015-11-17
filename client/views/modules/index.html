@@ -1,5 +1,13 @@
 <template name="homeIndex">
+ <body>
 
-    <p>Teszt</p>
-
+ <br />
+ <br />
+ <br />
+        <lu>
+     {{#each Events}}
+         <li class="Events"> Name: {{name}} , Score: {{winner}} </li>
+     {{/each}}
+    </lu>
+ </body>
 </template>

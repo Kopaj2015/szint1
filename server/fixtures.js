@@ -33,6 +33,7 @@ if (Floors.find().count() == 0) {
 		score: 10
 	});
 	
+<<<<<<< HEAD
 }
 
 if (Meteor.users.find().count() == 0) {
@@ -49,3 +50,6 @@ if (Meteor.users.find().count() == 0) {
     });
 });
 }
+=======
+}
+>>>>>>> c7d14021dd79675cd44813124bb771ded63fb773
