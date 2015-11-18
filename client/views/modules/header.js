@@ -1,4 +1,4 @@
-Template.admin.isAdmin = function () {
+Template.header.isAdmin = function () {
     var currentUser = Meteor.user();
 	
     if (null !== currentUser) {
