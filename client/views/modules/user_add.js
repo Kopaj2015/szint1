@@ -1,5 +1,4 @@
 if(Meteor.isClient) {
-    Meteor.subscribe()
     Template.useradd.events ({
         'submit form': function(event) {
             event.preventDefault();
