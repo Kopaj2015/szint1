@@ -5,3 +5,7 @@ Router.configure({
 Router.route("/", {
     name: "homeIndex"
 });
+
+Router.route("/useradd", {
+    name: "useradd"
+});
