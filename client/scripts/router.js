@@ -9,3 +9,6 @@ Router.route("/", {
 Router.route("/useradd", {
     name: "useradd"
 });
+Router.route("/eventadd", {
+    name: "eventadmin"
+});
