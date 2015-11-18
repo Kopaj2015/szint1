@@ -39,4 +39,5 @@ Meteor.methods({
 		Events.update(selectedEvent, {$set: {name: modifiedName, time: modifiedTime, type: modifiedType}});
 	}
 
+	
 });
